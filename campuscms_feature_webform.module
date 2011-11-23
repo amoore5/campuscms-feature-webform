@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Webform feature.
+ */
+
+include_once('campuscms_feature_webform.features.inc');
