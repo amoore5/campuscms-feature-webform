@@ -3,7 +3,7 @@ core = 7.x
 api = 2
 
 ; Contrib modules
-projects[date] = 2.x-dev
+projects[date] = 2.0-rc1
 projects[insert] = 1.1
 projects[nodeformcols] = 1.x-dev
 projects[options_element] = 1.4
