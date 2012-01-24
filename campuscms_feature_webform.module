@@ -5,3 +5,25 @@
  */
 
 include_once('campuscms_feature_webform.features.inc');
+
+/**
+ * Implements hook_modules_installed().
+ */
+function campuscms_feature_webform_modules_installed($modules) {
+  if (in_array('custom_breadcrumbs', $modules)) {
+    _campuscms_feature_webform_custom_breadcrumbs();
+  }
+}
+
+// Create some breadcrumbs
+function _campuscms_feature_webform_custom_breadcrumbs() {
+  // Add node breadcrumb.
+  $breadcrumb = new stdClass();
+  $breadcrumb->name = 'campuscms_feature_webform-node-webform';
+  $breadcrumb->titles = array('Menu Parent Trail', '[node:title]');
+  $breadcrumb->paths = array('<menu-parent-trail>', '<none>');
+  $breadcrumb->visibility_php = '';
+  $breadcrumb->node_type = 'webform';
+
+  _custom_breadcrumbs_save_breadcrumb('custom_breadcrumbs', 'node', $breadcrumb);
+}
