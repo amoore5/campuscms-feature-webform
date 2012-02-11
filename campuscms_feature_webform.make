@@ -12,7 +12,7 @@ projects[nodeformcols][download][type] = git
 projects[nodeformcols][download][url] = http://git.drupal.org/project/nodeformcols.git
 projects[nodeformcols][download][revision] = 0120682a82fa03d7387cc215ab0cce6d3ae96a45
 
-projects[options_element] = 1.4
-projects[select_or_other] = 2.7
+projects[options_element] = 1.5
+projects[select_or_other] = 2.8
 projects[submit_field] = 1.3
 projects[webform] = 3.15
