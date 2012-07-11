@@ -13,6 +13,6 @@ projects[nodeformcols][download][url] = http://git.drupal.org/project/nodeformco
 projects[nodeformcols][download][revision] = 0120682a82fa03d7387cc215ab0cce6d3ae96a45
 
 projects[options_element] = 1.7
-projects[select_or_other] = 2.9
+projects[select_or_other] = 2.13
 projects[submit_field] = 1.3
-projects[webform] = 3.17
+projects[webform] = 3.18
